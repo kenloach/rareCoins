@@ -1,2 +1,3 @@
 # rareCoins
-Project of a site for buying and selling antique coins
+Travail étudiant pour l'école.
+Codage en HTML et CSS d'un site d'achat et de vente de pièces antiques.
