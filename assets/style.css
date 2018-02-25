@@ -1,33 +1,65 @@
 body {
     background-color: lightblue;
+	font-family : arial, calibri, sans-serif;
+}
+article,aside,details,footer,header,nav,section {
+ display:block
+}
+a:link {color: black;}
+a:visited {color: darkblue;}
+a:hover {color: red;}
+a:active {color: red;}
+
+header {
+	background-color: #FDF1B8;
+	border-bottom : thick solid darkblue;
+	font-size : 20px;
 }
 header h1 {
+	text-align: center;
 	color : #000099;
 }
 
 header img {
-    width: 300px;
-    height: auto;
+	float: right;
+    height: 145px;
+	width: auto;
+}
+
+header nav ul { 
+	display: flex;
+	height:50px;
+	align-items: center;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+header nav ul li{
+
+  display: inline;
 }
 
 header nav ul img {
-    width: 50px;
+    width: 20px;
     height: auto;
 }
 
+#container {
+	display: flex;
+	flex-direction: row;
+}
 
 
-div.span-20 { 
+div.span-4 { 
 
 }
 
-div.span-20 #promo img:hover {
-    border: 3px double #777;
+div.span-20 img:hover, #panier img:hover {
+    border: 3px solid black;
 	border-radius: 0.5em;
 }
 
-div.span-20 #promo img {
-
+div.span-20 img, #panier img {
+	background-color: white;
     border: 3px solid gray;
 	border-radius: 0.5em;
     width: 200px;
@@ -44,36 +76,16 @@ div.desc {
 	background-color : lightgray;
 }
 
-nav ul {
 
-}
-
- nav ul li {
-
-}
-
-nav ul li a { }
-
-article {
-
-}
-
-article h1 { text-transform: uppercase; }
 
 #corps { 
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
-aside { 
-
-}
-aside h1 {
-
-}
 
 footer ul {
-	border-top: thick solid green;
+	border-top: thick solid darkblue;
 	padding-top: 0.3em;
 	text-align: center;
 	
