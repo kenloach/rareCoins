@@ -42,6 +42,7 @@ div.desc {
     padding: 15px;
     text-align: center;
 	background-color : lightgray;
+}
 
 nav ul {
 
@@ -71,7 +72,6 @@ aside h1 {
 
 }
 
-
 footer ul {
 	border-top: thick solid green;
 	padding-top: 0.3em;
@@ -86,3 +86,4 @@ footer ul li + li:before {
 	content: "|";
 	margin: 1em;
 }
+
