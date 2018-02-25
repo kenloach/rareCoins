@@ -9,26 +9,95 @@
 
 <body>
 
-		<header> 
-			<h1>Site d'achat de pi&egrave;ces rares en ligne</h1>
-		</header>
+	<div class="container">
 
-		<h1>Bienvenue sur rareCoins !</h1>
-		<form action="accueil.html" method="POST">
-			<fieldset>
-				<legend>Connexion au site</legend>
-				<label>Pseudo:<br> <input name="pseudo" required></label><br>
-				<label>Mot de passe:<br> <input type="password" name="mdp" required></label><br>
-				<input type="submit" value="Connexion">
-			</fieldset>
-		</form>
-		
-		<p>Pas encore de compte ? <a href="inscription.html">Inscrivez-vous</a></p>
-		<footer><ul>
-			<li>R&eacute;alis&eacute; avec Notepad++ et Amaya</li>
-			<li>HTML5 valide</li>
-			<li>CSS valide</li>
+		<div class="span-24">
+		<header>
+			<img src="assets/images/old_us_coins.jpg" alt="Pieces &agrave; collectionner" style="width:800px;height:400px;"> 
+
+			<h1>Site d'achat de pi&egrave;ces rares en ligne</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="qui_sommes_nous.html">Qui sommes nous</a></li>
+					<li><a href="details.html">D&eacute;tails techniques</a></li>
+					<li><a href="panier.html"><img src="assets/images/panier-achats.jpg" alt="Votre Panier"></a></li>
+				</ul>
+			</nav>
+		</header></div>
+
+		<div class="span-4">
+		<h2>Menu de gauche </h2>
+		<ul>
+		  <li>Pi&egrave;ces antiques</li>
+		  <li>Pi&egrave;ces moyen-age</li>
+		  <li>Pi&egrave;ces renaissance</li>
+		  <li>Pi&egrave;ces contemporaines</li>
 		</ul>
-		</footer>
+		</div>
+
+		<div class="span-20">
+			<section id=corps>
+			<h2>D&eacute;couvrez nos produits</h2>
+			<article>
+				<h3>Articles du moment en promotion</h3>
+
+				<p id="promo">
+					<a href="produit.html">
+						<img src="assets/images/20_francs_napoleon.png" alt="20 francs Napoleon">
+					</a>
+					
+					<a href="produit.html">
+					<img src="assets/images/2-euros-dessin.jpg" alt="2&euro; dessin"> 
+					</a>
+					<a href="produit.html">
+					<img src="assets/images/2-euros-francois-mitterrand.jpg" alt="2&euro; Fran&ccedil;ois Miterrand"> 
+					</a>
+				</p>
+
+				<p>Plus d'articles...</p>
+				
+
+				<h4>Nos meilleures ventes</h4>
+				
+				<p>
+					<a href="produit.html">
+					<img src="assets/images/2-euros-francois-mitterrand.jpg" alt="2&euro; Fran&ccedil;ois Miterrand"> 
+					</a>
+				</p>
+
+				<p>et les nouveaut&eacute;s</p>
+			</article>
+			<aside><section>
+				<h3>Comment choisir ses pi&egrave;ces</h3>
+
+				<p id="cours-pieces">
+					<a href="https://www.achat-or-et-argent.fr/or/cours-de-l-or">
+						<img src="assets/images/20_francs_napoleon.png" alt="Achat or">
+					</a>
+					<img src="assets/images/debian-logo.png" alt="Logo de Debian"> 
+					<img src="assets/images/ubuntu-logo.jpg" alt="Logo d'Ubuntu"> 
+					<img src="assets/images/mageia-logo.png" alt="Logo de Mageia"> 
+					<img src="assets/images/arch-logo.jpg" alt="Logo d'Arch-linux"> 
+				</p>
+
+				<p>Sites d'&eacute;valuation des prix.</p>
+
+				<p>Vous pouvez &eacute;galement consulter 
+				<a href="http://collectiondepieces.fr/pourquoi-collectionner-des-pieces.html">ce site</a> 
+				pour commencer &agrave;&nbsp;vous faire une id&eacute;e de l'int&eacute;r&ecirc;t de la collection de pi&egrave;ces.</p>
+			</section></aside>
+			</section>
+		</div>
+
+		<div class="span-24">
+			<footer><ul>
+				<li>R&eacute;alis&eacute; avec Notepad++ et Amaya</li>
+				<li>HTML5 valide</li>
+				<li>CSS valide</li>
+			</ul>
+			</footer>
+		</div>
+	</div>
 </body>
 </html>
